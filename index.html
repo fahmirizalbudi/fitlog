@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitlog - Modern Fitness Tracking</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 3L13 21"
+                stroke="#D90429"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M5 10L5 21"
+                stroke="#111111"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M21 7L21 21"
+                stroke="#111111"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+            </svg>
+            fitlog
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Workouts</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+          <div class="nav-actions">
+            <a href="#" class="btn btn-outline">Log In</a>
+            <a href="#" class="btn btn-primary">Get App</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>Metrics matter. <br /><span>Log smarter.</span></h1>
+        <p>
+          Fitlog is the stripped-back, high-performance tracker for athletes who
+          focus on the data, not the distractions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary">Start Tracking Free</a>
+          <a href="#" class="btn btn-outline">View Demo</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="phone-mockup">
+          <div class="screen-header">
+            <div class="screen-date">SUNDAY, NOV 30</div>
+            <div class="screen-title">Today's Load</div>
+          </div>
+          <div class="stat-card">
+            <span>Active Calories</span>
+            <h3>1,240</h3>
+            <div
+              style="
+                height: 4px;
+                background: rgba(255, 255, 255, 0.3);
+                width: 100%;
+                margin-top: 10px;
+                border-radius: 2px;
+              "
+            >
+              <div style="height: 100%; background: white; width: 75%"></div>
+            </div>
+          </div>
+          <div class="list-item">
+            <div>
+              <div style="font-weight: 700">Morning Run</div>
+              <div style="font-size: 0.8rem; color: #666666">5.2km • 24:00</div>
+            </div>
+            <div class="list-icon">Run</div>
+          </div>
+          <div class="list-item">
+            <div>
+              <div style="font-weight: 700">Upper Body</div>
+              <div style="font-size: 0.8rem; color: #666666">
+                45 mins • Hypertrophy
+              </div>
+            </div>
+            <div class="list-icon">Gym</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Fitlog?</h2>
+          <p>No social feeds. No ads. Just pure performance data.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon-box">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+              </svg>
+            </div>
+            <h3>Precision Analytics</h3>
+            <p>
+              Visualize your progressive overload with clean, linear graphs.
+              Identify plateaus instantly.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-box">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <h3>Rest Timer</h3>
+            <p>
+              Built-in adaptable rest timers that sync with your workout
+              intensity automatically.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-box">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+              </svg>
+            </div>
+            <h3>Routine Library</h3>
+            <p>
+              Save unlimited custom routines. Switch between powerlifting and
+              cardio modes seamlessly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container cta-section">
+      <div class="cta-box">
+        <h2>Ready to hit a PR?</h2>
+        <p>Join 50,000+ athletes tracking their journey with Fitlog.</p>
+        <a
+          href="#"
+          class="btn btn-primary"
+          style="background: #d90429; border: none"
+          >Download for iOS & Android</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Fitlog Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
