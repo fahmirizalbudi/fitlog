@@ -14,33 +14,33 @@
 
 <br />
 
-## 🌐 Fitlog
+## Fitlog
 
 Fitlog Modern Fitness Tracking landing page based on web application. Built on HTML, CSS using Vite build tools. Key features include:
 
-## 🖼️ Preview
+## Preview
 
 ![](fitlog-capture.png)
 
-## ✨ Features
+## Features
 
-- **🏗️ Semantic Markup:** Accessible and SEO-friendly HTML5 structure.
-- **🎨 Modern UI/UX:** Clean and aesthetic design implemented.
+- **Semantic Markup:** Accessible and SEO-friendly HTML5 structure.
+- **Modern UI/UX:** Clean and aesthetic design implemented.
 
-## 👩‍💻 Tech Stack
+## Tech Stack
 
 - **HTML5**: The standard markup language for documents designed to be displayed in a web browser.
 - **CSS3**: Style sheet language used for describing the presentation of a document written in HTML.
 
-## 📦 Getting Started
+## Getting Started
 
 To get a local copy of this project up and running, follow these steps.
 
-### 🚀 Prerequisites
+### Prerequisites
 
 - **Chrome** (or another supported HTML viewer).
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
 
@@ -55,12 +55,12 @@ To get a local copy of this project up and running, follow these steps.
    > Open index.html file using web browser
    ```
 
-## 📖 Usage
+## Usage
 
-### ✔ Running the Application
+### Running the Application
 
 > Open [fitlog/index.html](fitlog/index.html) to view it in the browser.
 
-## 📜 License
+## License
 
 All rights reserved. This project is for educational purposes only and cannot be used or distributed without permission.
